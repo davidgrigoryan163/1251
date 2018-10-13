@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
+    android:clickable="true">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="17dp"
+        android:text="Программу создал Давид Григорян"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Версия: 1.1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="87dp"
+        android:text="Эл. почта:" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/email_text"
+        android:layout_alignLeft="@+id/email_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="110dp"
+        android:autoLink="email"
+        android:text="ipav380@gmail.com"
+        android:textColorLink="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/vk_text"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/email_text"
+        android:layout_alignLeft="@+id/email_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="141dp"
+        android:text="VK:" />
+
+    <TextView
+        android:id="@+id/vk_link"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/vk_text"
+        android:layout_alignLeft="@+id/vk_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-57dp"
+        android:layout_marginLeft="-57dp"
+        android:layout_marginTop="160dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="https://vk.com/skull_skull"
+        android:textColorLink="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/license"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="202dp"
+        android:text="*Приложение имеет лицензию Apache 2.0*"></TextView>
+
+    <TextView
+        android:id="@+id/license_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/vk_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-25dp"
+        android:layout_marginTop="238dp"
+        android:autoLink="web"
+        android:text="www.apache.org"
+        android:textColorLink="@color/grey_400"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>
