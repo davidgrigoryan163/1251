@@ -9,12 +9,16 @@
         android:title="@string/changelog"
         app:showAsAction="never" />
     <item
+        android:id="@+id/rate"
+        android:icon="@drawable/ic_rate"
+        android:title="Оценить!"
+        app:showAsAction="always"></item>
+    <item
         android:id="@+id/license"
         android:title="Лицензия ПО"
         app:showAsAction="never"></item>
     <item
-          android:id="@+id/rate"
-          android:icon="@drawable/ic_rate"
-          android:title="Оценить!"
-          app:showAsAction="always"></item>
+        android:id="@+id/source_code"
+        android:title="Исходный код"
+        app:showAsAction="never"></item>
 </menu>
