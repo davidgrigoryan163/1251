@@ -4,5 +4,6 @@
 *Автоматически обновляется расписание каждую минуту
 *Возможность сохранять расписание в формате JPEG(.JPG)
 *Поддержка Android 8/9
+
 GooglePlay:
 https://play.google.com/store/apps/details?id=com.davidgrigoryan.rasp1251
