@@ -191,6 +191,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.rate:
                 showDialog();
                 break;
+            case R.id.source_code:
+                source_code_link();
+                break;
             case R.id.changelog: {
                 new DarkThemeChangeLog(this).getFullLogDialog().show();
                 break;
@@ -204,6 +207,11 @@ public class MainActivity extends AppCompatActivity {
                 return true;
         }
         return true;
+    }
+
+    private void source_code_link() {
+        Uri uri = Uri.parse( "https://github.com/davidgrigoryan163/1251" );
+        startActivity( new Intent( Intent.ACTION_VIEW, uri ) );
     }
 
     public static class DarkThemeChangeLog extends ChangeLog {
