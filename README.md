@@ -5,5 +5,5 @@
 *Возможность сохранять расписание в формате JPEG(.JPG)
 *Поддержка Android 8/9
 
-GooglePlay:
+Google Play:
 https://play.google.com/store/apps/details?id=com.davidgrigoryan.rasp1251
